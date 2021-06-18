@@ -1,0 +1,15 @@
+a:link {
+    color: hotpink;
+}
+a:visited {
+    color: indigo;
+}
+a:hover {
+    background-color: khaki;
+}
+p:not(.mara) {
+    color: mediumseagreen;
+}
+.container div:nth-child(2) {
+    color: orangered;
+}
