@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 2</title>
+    <style>
+        .container {
+            padding: 20px;
+            background: papayawhip;
+            width: 800px;
+            height: 600px;
+            margin: 100px auto;
+        }
+        .container:hover .item1 {
+            transform: rotate(45deg);
+        }
+        .container:hover .item2 {
+            transform: scale(1.2);
+        }
+        .container:hover .item3 {
+            transform: skew(45deg);
+        }
+        .container:hover .item4 {
+            transform: rotate(45deg);
+        }
+        .item {
+            width: 100px;
+            height: 100px;
+            transition: transform 1s;
+            margin: 50px;
+        }
+        .item1 {
+            background: peru;
+        }
+        .item2 {
+            background: pink;
+        }
+        .item3 {
+            background: plum;
+        }
+        .item4 {
+            background: purple;
+            transform-origin: top right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1"></div>
+        <div class="item item2"></div>
+        <div class="item item3"></div>
+        <div class="item item4"></div>
+    </div>
+</body>
+</html>
