@@ -10,16 +10,20 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            font-family: system-ui;
         }
         ul {
             list-style: none;
         }
         a {
             text-decoration: none;
+            color: white;
+            margin: 10px;
         }
         .nav {
             display: flex;
-
+            background: navy;
+            padding: 10px 0;   
         }
         .nav li ul {
             display: block;
@@ -30,13 +34,18 @@
         }
         .nav li ul li{
             position: relative;
-            right: -50px;
+            right: -35px;
+            background: navy;
             
         }
         .nav li:hover > ul {
             opacity: 1;
             transition: opacity 500ms;
             transition-delay: 300ms;
+        }
+        .nav li a:hover {
+            color: cyan;
+            transition: 500ms;
         }
     </style>
 </head>
